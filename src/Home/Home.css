@@ -1,0 +1,96 @@
+body{
+    /* height: 200vh; */
+    /* background-image: url('../images/coding1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background: rgb(16, 46, 122);
+}
+.home_container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+
+}
+.home_container h1{
+    /* font-weight: 700; */
+    font: bold;
+}
+.hi_there{
+    font-size: 3.5em;
+}
+.name_h1{
+    font-size: 4.5em;
+}
+.home_item_container{
+    margin-top: 6em;
+  
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.home_item_container p{
+    font: bold;
+    font-size: 1.5em;
+    margin: 1.5em 0;
+}
+.button_div{
+    margin-top:1.5em ;
+}
+.home_item_container button{
+    cursor: pointer;
+    font-size: 1em;
+   color: white;
+    padding: 0.8em 1.5em;
+    margin: 0 1em;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.button_div :first-child{
+    
+
+    background-color: #082df6;
+}
+
+
+.button_div :first-child:hover{
+    background-color:#2538a3;
+}
+.button_div :last-child{
+    background-color: rgb(118, 126, 137);
+    
+}
+.button_div :last-child:hover{
+    background-color:#5b5d69;
+}
+@media(max-width:400px){
+    .hi_there{
+        font-size: 2.5em;
+    }
+    .name_h1{
+        font-size: 3.5em;
+    }
+    .home_item_container p{
+        font-size: 1em;
+    }
+    .button_div button{
+        margin: 0 0.5em;
+    }
+}
+
+@media(max-width:300px){
+    .hi_there{
+        font-size: 2em;
+    }
+    .name_h1{
+        font-size: 2.5em;
+    }
+    
+}
+
