@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.c266ee73.css",
+    "main.js": "/Portfolio/static/js/main.6ff3463b.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/Portfolio/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/java.png": "/Portfolio/static/media/java.1efabed7fcf1a28df014.png",
+    "static/media/nodejs.png": "/Portfolio/static/media/nodejs.bc4b43cd5f20ba305059.png",
+    "static/media/css.png": "/Portfolio/static/media/css.5721a3928fe43de6baf8.png",
+    "static/media/git.png": "/Portfolio/static/media/git.a54d3fa44e02f2f61e69.png",
+    "static/media/bootstrap1.avif": "/Portfolio/static/media/bootstrap1.fc892792aaff2bbcc5a2.avif",
+    "static/media/monogodb7.avif": "/Portfolio/static/media/monogodb7.31598eab6788ce8439d4.avif",
+    "static/media/c++4.avif": "/Portfolio/static/media/c++4.1104cf1f29b80daa734e.avif",
+    "static/media/github10.avif": "/Portfolio/static/media/github10.448099fa643aef1b8aa1.avif",
+    "index.html": "/Portfolio/index.html",
+    "main.c266ee73.css.map": "/Portfolio/static/css/main.c266ee73.css.map",
+    "main.6ff3463b.js.map": "/Portfolio/static/js/main.6ff3463b.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/Portfolio/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c266ee73.css",
+    "static/js/main.6ff3463b.js"
+  ]
+}
