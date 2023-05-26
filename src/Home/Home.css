@@ -6,9 +6,7 @@ body{
     background-size: cover; */
     background: rgb(16, 46, 122);
 }
-html{
-    scroll-behavior: calc();
-}
+
 a{
     text-decoration: none;
 }

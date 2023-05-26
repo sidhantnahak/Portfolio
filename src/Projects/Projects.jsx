@@ -7,9 +7,11 @@ const Projects = () => {
     <>
    
 
+    <div id='project_container'  className="project_container">
+
     
     <h1 className='project_heading'>Projects</h1>
-    <div id='project_container' className="project_container">
+    <div className="project_item_container">
         <div className="project_item">
             <img src={profile} alt="" />
             <p className='project_name'>Ecommerece </p>
@@ -47,6 +49,7 @@ const Projects = () => {
 <Link to="">Github</Link><Link to="">Go Live</Link>
                 
             </div></div>
+    </div>
     </div>
    
     </>

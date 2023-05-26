@@ -9,6 +9,7 @@
     justify-content: center; */
 
 }
+
 .skills_container h2{
     width: 100%;
     
@@ -85,6 +86,12 @@
     .skills_item_container{
  width: 90vw;
         grid: auto/auto auto auto;
+    }
+    .skills_container{
+        height: auto;
+    }
+    .skills_item_container{
+        height: auto;
     }
 }
 
