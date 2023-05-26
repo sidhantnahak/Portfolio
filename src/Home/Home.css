@@ -6,6 +6,12 @@ body{
     background-size: cover; */
     background: rgb(16, 46, 122);
 }
+html{
+    scroll-behavior: calc();
+}
+a{
+    text-decoration: none;
+}
 .home_container{
     height: 100vh;
     display: flex;
@@ -41,7 +47,7 @@ body{
 .button_div{
     margin-top:1.5em ;
 }
-.home_item_container button{
+.home_item_container a{
     cursor: pointer;
     font-size: 1em;
    color: white;

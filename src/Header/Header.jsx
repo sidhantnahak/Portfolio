@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import './Header.css'
 import {Link }from 'react-router-dom'
 
@@ -19,32 +19,57 @@ const Header = () => {
     
         // toogle_btn_icon.classList = isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars"
       }
+
+      const HomeHandler=()=>{
+        let elem=document.getElementById("home_container");
+        elem.scrollIntoView({behavior:"smooth",block:"start",inline:"nearest"});
+        elem.style.scrollMarginBlockStart="110px"
+        elem.style.scrollMarginBlockEnd="110px"
+
+      }
+
+      const AboutHandler=()=>{
+        let elem=document.getElementById("about_container");
+        elem.scrollIntoView({behavior:"smooth",block:"start",inline:"nearest"});
+        elem.style.scrollMarginBlockStart="110px"
+        elem.style.scrollMarginBlockEnd="110px"
+
+      }
+
+      const ProjectHandler=()=>{
+        let elem=document.getElementById("skills_container");
+        elem.scrollIntoView({behavior:"smooth",block:"start",inline:"nearest"});
+        elem.style.scrollMarginBlockStart="110px"
+        elem.style.scrollMarginBlockEnd="110px"
+
+      }
+
     return (
         <>
         <header className="header_container">
             <div className="header_item_container" >
                 <div className="name_div">
-                    <Link to="/">Sidhant Nahak</Link>
+                    <Link onClick={HomeHandler}>Sidhant Nahak</Link>
                 </div><i className="fa-solid fa-files"></i>
                 <ul className="item_container">
                     <li> 
-                        <Link to="/"><i className="fa-solid fa-house"></i>
+                        <Link onClick={HomeHandler}><i className="fa-solid fa-house"></i>
                            Home
                         </Link>
                     </li>
                     <li>
-                        <Link to="/about"><i className="fa-regular fa-user"></i>
+                        <Link onClick={AboutHandler}><i className="fa-regular fa-user"></i>
                             About
                         </Link>
                     </li>
                     <li>
-                        <Link to="/projects"><i className="fa-regular fa-solid fa-file"></i>
+                        <Link onClick={ProjectHandler}><i className="fa-regular fa-solid fa-file"></i>
                         
                             Projects
                         </Link>
                     </li>
                     <li>
-                        <Link to="/resume"><i className="fa-solid fa-address-card"></i>
+                        <Link to="https://drive.google.com/file/d/1WOwTlO1uRS36Jr26PSD7BDUbjYGKbTWD/view?usp=drive_link"><i className="fa-solid fa-address-card"></i>
                         Resume
                         </Link>
                     </li>
@@ -64,12 +89,12 @@ const Header = () => {
 
         <div className="sidebar">
             <ul>
-              <li><Link to="/home">Home</Link></li>
+              <li><Link onClick={HomeHandler}>Home</Link></li>
 
-              <li><Link to="/about">About</Link></li>
+              <li><Link onClick={AboutHandler}>About</Link></li>
 
-              <li><Link  to="/projects">Projects</Link></li>
-              <li><Link to="/resume">Resume</Link></li>
+              <li><Link onClick={ProjectHandler} >Projects</Link></li>
+              <li><Link to="https://drive.google.com/file/d/1WOwTlO1uRS36Jr26PSD7BDUbjYGKbTWD/view?usp=drive_link">Resume</Link></li>
 
             </ul>
           </div>

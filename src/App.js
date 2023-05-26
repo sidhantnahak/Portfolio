@@ -1,19 +1,21 @@
 import './App.css';
 import Home from './Home/Home';
 
-import { BrowserRouter as Router ,Routes,Route, BrowserRouter } from 'react-router-dom';
+import { Routes, BrowserRouter } from 'react-router-dom';
 import Skills from './Skills/Skills';
+import Header from './Header/Header';
+import About from './About/About';
 
 function App() {
   return (
     <>
     <BrowserRouter>
- <Home/>
- <Skills/>
+    <Header/>
+<Home/>
+<About/>
+<Skills/>
     <Routes>
 
-      {/* <Route exact path='/' element={<Home/>}/> */}
-       {/* <Route exact path='/skills' element={<Skills/>}/>  */}
      
     </Routes>
     

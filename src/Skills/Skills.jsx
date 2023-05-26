@@ -18,7 +18,7 @@ import GitHub from'../images/github10.avif'
 const Skills = () => {
     
     return (
-        <div className="skills_container">
+        <div id="skills_container"  className="skills_container">
             <h2>My Skills</h2>
 
             <div className="skills_item_container">
