@@ -5,6 +5,7 @@ import { Routes, BrowserRouter } from 'react-router-dom';
 import Skills from './Skills/Skills';
 import Header from './Header/Header';
 import About from './About/About';
+import Projects from './Projects/Projects';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 <Home/>
 <About/>
 <Skills/>
+<Projects/>
     <Routes>
 
      

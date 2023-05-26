@@ -3,7 +3,7 @@
     margin-bottom: 4em;
 
     min-height: 100vh;
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     padding: 2em;
     /* border: 1px solid red; */
@@ -58,7 +58,7 @@
 
 @media(max-width:1000px){
     .about_container{
-        /* height: 100vh; */
+        height: 100vh;
         padding: 0
     }
 .about_item_container{

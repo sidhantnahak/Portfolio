@@ -37,7 +37,7 @@ const Header = () => {
       }
 
       const ProjectHandler=()=>{
-        let elem=document.getElementById("skills_container");
+        let elem=document.getElementById("project_container");
         elem.scrollIntoView({behavior:"smooth",block:"start",inline:"nearest"});
         elem.style.scrollMarginBlockStart="110px"
         elem.style.scrollMarginBlockEnd="110px"
