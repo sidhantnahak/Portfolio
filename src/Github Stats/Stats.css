@@ -1,0 +1,28 @@
+.github_stats_container{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.github_stats_container img{
+    margin-top: 1em;
+    height: 320px;
+    width: 70%;
+}
+.github_stats_container h1{
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+@media(max-width:900px){
+    .github_stats_container img{
+        width: 95%;
+    }
+    .github_stats_container{
+        padding: 0 1em;
+    }
+}

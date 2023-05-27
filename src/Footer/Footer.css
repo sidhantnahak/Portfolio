@@ -1,0 +1,11 @@
+.footer_container{
+    height: 10vh;
+    border-top: 1px solid rgb(69 81 90);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_container p{
+    color: rgb(190, 176, 176);
+    font-size: 1.4em;
+}

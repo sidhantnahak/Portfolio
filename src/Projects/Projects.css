@@ -10,6 +10,8 @@
 }
 
 .project_container h1{
+    font-size: 2.5em;
+
     margin: 1em 0;
     color: white;
 
@@ -28,6 +30,7 @@
 }
 
 .project_item{
+
     margin: 1em 1.8em;
     height: 470px;
     width: 420px;
@@ -36,9 +39,15 @@
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
-    border: 1px solid white;
+    border: 2px solid rgb(220, 211, 211);
     border-radius: 10px;
     transition: 0.2s scale ease-in-out;
+    /* box-shadow: 12px 12px 12px 12px #888888;
+     */
+
+     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+
+     box-shadow: rgba(4, 0, 22, 0.19) 0px 20px 30px, rgba(0, 0, 0, 0.23) 0px 16px 16px;
 }
 .project_name{
     font-size: 1.3em;
@@ -46,13 +55,17 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .project_item:hover{
-    scale: 1.05;
+    scale: 1.03;
+
 }
 
 .project_item img{
 
     width: 100%;
     height: 55%;
+}
+.project_item :nth-child(3){
+    text-align: center;
 }
 .project_item p{
     margin: 0.4em 0;
@@ -73,11 +86,11 @@
 .project_item_buttons :first-child{
     /* background: #63b3ed; */
    background: #0b94f6;
-   transition: 0.1s ease-in-out;
+   transition: 0.05s ease-in-out;
 }
 .project_item_buttons :last-child{
     background: rgb(167 192 189 / 53%);
-   transition: 0.1s ease-in-out;
+   transition: 0.05s ease-in-out;
 
 }
 
@@ -87,11 +100,16 @@
 }
 
 .project_item_buttons :last-child:hover{
-    background: #515d67;
+    /* background: #515d67; */
+    background: rgba(92, 105, 105, 0.53);
 }
 @media(max-width:1400px){
+    .project_container{
+        height: auto;
+    }
     
     .project_item_container{
+        height: auto;
         grid: auto/auto auto;
     }
 }
@@ -107,10 +125,28 @@
         width: auto;
     }
     .project_item_buttons{
-        flex-direction: column;
+        /* flex-direction: column; */
+        /* width: 80%; */
     }
     .project_item_buttons a{
         margin: 0.5em 0;
+
+    }
+    .project_item img{
+        height: auto;
+    }
+}
+
+@media(max-width:500px){
+    .project_item_buttons{
+        width: 70%;
+
+    }
+}
+
+@media(max-width:370px){
+    .project_item_buttons{
+        flex-direction: column;
 
     }
 }

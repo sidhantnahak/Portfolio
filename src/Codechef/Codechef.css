@@ -1,0 +1,66 @@
+.codechef_container{
+    height: 170vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em 0;
+}
+.codechef_container h1{
+    font-size: 2.5em;
+    margin: 1.5em 0;
+    color: white;
+    text-align: center;
+
+}
+/* .codechef_item_container{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(0, 255, 13);
+
+} */
+.codechef_container img{
+    
+     height: 59vh;
+    width: 36vw;
+    border: 2px solid white;
+}
+/* .codechef_up_item img{
+
+    height: 450px;
+    width:550px ;
+}
+.codechef_down_item img{
+    height: 55vh;
+    width: 36vw;
+
+} */
+
+@media(max-width:1100px){
+    .codechef_container{
+        height: auto;
+    }
+    .codechef_down_item,.codechef_up_item{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       /* margin: 1em 0; */
+    }
+    .codechef_container img{
+        height: 55vh;
+       width: 80vw;
+       text-align: center;
+       
+   }
+}
+@media(max-width:600px){
+.codechef_container img{
+    width: 90vw;
+}
+}
