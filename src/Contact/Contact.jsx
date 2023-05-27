@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import { Link } from 'react-router-dom'
 const Contact = () => {
     return (
         <div className="contact_container">
@@ -15,7 +16,7 @@ const Contact = () => {
                             <label htmlFor="name">Name :</label>
                             <div>
                                 <i className="fa-regular fa-user"></i>
-                                <input type="text" name='name' id='name' placeholder='Enter Your Name' />
+                                <input type="text" name='name' id='name' placeholder='Enter Your Name' required/>
 
                             </div>
                         </div>
@@ -27,7 +28,7 @@ const Contact = () => {
 
                             <div>
                                 <i class="fa-solid fa-envelope"></i>
-                                <input type="email" id='email' placeholder='Enter Your Email' />
+                                <input type="email" id='email' placeholder='Enter Your Email'required />
 
                             </div>
                         </div>
@@ -38,7 +39,7 @@ const Contact = () => {
 
                             <div>
                                 <i class="fa-solid fa-phone"></i>
-                                <input type="number" id='phone' placeholder='Enter Your Phone Number' />
+                                <input type="number" id='phone' placeholder='Enter Your Phone Number'required />
 
                             </div>
                         </div>
@@ -46,10 +47,12 @@ const Contact = () => {
                         <div className="form_item">
                             <label htmlFor="phone">Message :</label>
 
+                            
+
                             <textarea name="textarea" id="textarea" ></textarea>
 
                         </div>
-                        <button></button>
+                        <button><Link>Send</Link></button> 
 
                     </form>
                 </div>
@@ -60,7 +63,7 @@ const Contact = () => {
                         <p>sidhantnahak2@gmail.com</p>
                     </div>
                     <div className="media_item_div">
-                        <i class="fa-solid fa-phone"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
                         <h4>Whatsapp</h4>
 
                         <p>+91 6371971275</p>

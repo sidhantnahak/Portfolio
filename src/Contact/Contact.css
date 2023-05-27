@@ -1,13 +1,28 @@
 .contact_container{
-    color: rgb(228, 222, 222);
+    /* color: rgb(228, 222, 222); */
+
+    color: rgb(198 194 194);
+    
     height: 120vh;
     width: 100%;
+    /* border: 1px solid red; */
 display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
 
 }
+.contact_container,
+input[type ="number"]::-webkit-outer-spin-button,
+ input[type = "number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+
+ }
+ 
+ 
+    
+
 .contact_container h1{
     text-align: center;
     font-size: 2.5em;
@@ -15,82 +30,114 @@ flex-direction: column;
 }
 .contact_item_container{
     /* margin: auto; */
-    width: 65%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .form_div{
-    padding: 1.5em 2em;
+    margin: 2em 0;
+    padding: 1em 1em;
     /* background: rgb(15 73 196); */
-    width: 30vw;
-    height: 65vh;
+    width: 455px;
+    /* width: 30vw; */
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgb(232, 223, 223);
+    border: 2px solid  rgb(114, 136, 160);
+    ;
    
-   
+    box-shadow: rgba(4, 0, 22, 0.19) 0px 20px 30px, rgba(0, 0, 0, 0.23) 0px 16px 16px;
 }
 
 
 .form_div .form_item{
-    margin: 1em 0;
+    margin-bottom: 1em;
 }
 .form_item div{
     margin: 0.4em 0;
 }
 
 .form_item div{
+    width: 400px;
     border-radius: 4px;
-    border: 2px solid white;
+    border: 1px solid rgb(84, 104, 154);
     display: flex;
     align-items: center;
     /* justify-content: center; */
 }
-.form_item div input{
-    margin-left: 0.5em;
-    padding: 0 0.5em;
-    background-color: rgb(16, 46, 122);
-    width: 20em;
-    height: 33px;
-    font-size: 1.1em;
-    border: none;
-    color: rgb(228, 222, 222);
-    
+.form_item div:hover{
+    outline: 2px solid rgb(156, 164, 184);
+
 }
 .form_div i{
-    color: rgb(218, 210, 210);
+    color: rgb(228, 222, 222);
     font:"bold";
-    font-size:1.6em;
-    margin:0 0.3em;
+    font-size:1.2em;
+    padding: 0 0.4em;
 }
 
 .form_item label{
     font-size: 1.2em;
     font-weight: 600;
-    margin: 0.5em 0;
+    /* margin: 0.5em 0; */
+}
+.form_item div input{
+    margin-left: 0.5em;
+    padding: 0 0.5em;
+    background: rgb(16, 46, 122);
+    width: 100%;
+    height: 37px;
+    font-size: 1.1em;
+    border: none;
+    color: rgb(228, 222, 222);
+    
 }
 
 .form_item textarea{
-    background:rgb(218, 210, 210) ;
-margin-top: 0.5em;
+    background:rgb(16, 46, 122) ;
+    border: 1px solid rgb(84, 104, 154);
+
+    color: rgb(228, 222, 222);
+
+margin: 0.5em 0;
 font-size: 1.1em;
 padding: 0.5em 0.5em;
-border: none;
 height: 8em;
-width: 28em;
+width: 100%;
 
 }
+.form_item textarea:focus,input:focus{
+    outline: none;
+}
+.form_div button{
+    width: 100%;
+    font-size: 1.1em;
+    padding: 0.3em 1.5em;
+    border: none;
+    background: rgb(17, 64, 166);
+    cursor: pointer;
+}
+.form_div button:hover{
+    background: #254baa;
+}
+.form_div button a{
+    color: white;
+}
 .media_div{
+    padding: 1.5em;
     width: 25vw;
-    height: 85vh;
+    height: 90vh;
     /* border: 1px solid rgb(232, 223, 223); */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 
+}
+.media_div i{
+    font-size: 1.2em;
 }
 .media_div .media_item_div{
     height: 100px;
@@ -103,5 +150,55 @@ width: 28em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.media_item_div:hover{
+    cursor: pointer;
+    /* background-color: #1740a8; */
+    background: #1a46b4;
+}
+
+@media(max-width:1450px){
+    .contact_item_container{
+        width: 65%;
+    }
+}
+
+@media(max-width:1350px){
+    .contact_item_container{
+        width: 70%;
+    }
+}
+@media(max-width:1200px){
+    .contact_item_container{
+        width: 80%;
+    }
+}
+
+@media(max-width:1050px){
+    .contact_item_container{
+        width: 90%;
+    }
+}
+
+@media(max-width:950px){
+    .contact_container{
+        height: auto;
+    }
+    .contact_item_container{
+        height: auto;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+}
+@media(max-width:500px){
+
+    .form_div{
+        width: 100%;
+    }
+    .form_item div{
+        width: 100%;
+    }
 }
