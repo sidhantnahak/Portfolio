@@ -81,10 +81,10 @@ const Contact = () => {
                         <p>linkedin.com/in/sidhantnahak</p>
                     </div>
                     <div className="media_item_div">
-                    <i class="fa-brands fa-twitter"></i>
 
                         <h4>Twiter</h4>
                         <p>twitter.com/SidhantNahak2</p>
+                    
                     </div>
                 </div>
             </div>

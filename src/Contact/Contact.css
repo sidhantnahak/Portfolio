@@ -39,7 +39,7 @@ input[type ="number"]::-webkit-outer-spin-button,
     margin: 2em 0;
     padding: 1em 1em;
     /* background: rgb(15 73 196); */
-    width: 455px;
+    width: 460px;
     /* width: 30vw; */
     height: 70vh;
     display: flex;
@@ -67,10 +67,7 @@ input[type ="number"]::-webkit-outer-spin-button,
     align-items: center;
     /* justify-content: center; */
 }
-.form_item div:hover{
-    outline: 2px solid rgb(156, 164, 184);
 
-}
 .form_div i{
     color: rgb(228, 222, 222);
     font:"bold";
@@ -102,7 +99,7 @@ input[type ="number"]::-webkit-outer-spin-button,
     color: rgb(228, 222, 222);
 
 margin: 0.5em 0;
-font-size: 1.1em;
+font-size: 1.2em;
 padding: 0.5em 0.5em;
 height: 8em;
 width: 100%;
@@ -185,11 +182,13 @@ width: 100%;
 @media(max-width:950px){
     .contact_container{
         height: auto;
+margin: 1.5em 0;
+
     }
     .contact_item_container{
         height: auto;
         justify-content: space-between;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     
 }
