@@ -5,7 +5,8 @@
     flex-direction: column;
     width: 100%;
     height: 140vh;
-    margin: 100px 0;
+    margin-top: 100px;
+    margin-bottom: 200px;
 
 }
 
@@ -32,14 +33,13 @@
 .project_item{
 
     margin: 1em 1.8em;
-    height: 470px;
+    height: 530px;
     width: 420px;
     padding: 1em 0.8em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
-    border: 2px solid rgb(220, 211, 211);
+    border: 3px solid rgb(220, 211, 211);
     border-radius: 10px;
     transition: 0.2s scale ease-in-out;
     /* box-shadow: 12px 12px 12px 12px #888888;
@@ -64,11 +64,13 @@
     width: 100%;
     height: 55%;
 }
-.project_item :nth-child(3){
-    text-align: center;
-}
+
 .project_item p{
+    text-align: center;
     margin: 0.4em 0;
+}
+.project_item :nth-child(4){
+    text-align: justify;
 }
 .project_item_buttons{
     margin-top: 0.3em;

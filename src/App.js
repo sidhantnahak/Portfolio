@@ -12,6 +12,12 @@ import Footer from './Footer/Footer';
 import Contact from './Contact/Contact';
 
 function App() {
+
+  // window.scrollTo({
+  //   left: "10px",
+  //   top: "10px",
+  //   behavior: "auto"
+  // });
   return (
     <>
       <BrowserRouter>
@@ -21,7 +27,7 @@ function App() {
         <Skills />
         <Github/>
         <Projects />
-        <Codechef/>
+        {/* <Codechef/> */}
 <Contact/>
         <Footer/>
 

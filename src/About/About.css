@@ -1,5 +1,6 @@
 
 .about_container{
+    color: rgb(198 194 194);
     margin-bottom: 4em;
 
     min-height: 100vh;
@@ -45,15 +46,17 @@
     margin-left: 2.5em;
 }
 .detail_container h1{
-    color: white;
+    /* color: white; */
     margin: 0.5em 0;
 }
 
 .detail_container p{
-    color: rgb(255 255 255 / 98%);
+    /* color: rgba(208, 219, 218, 0.98); */
+    color: rgb(240, 235, 235);
     overflow-wrap: break-word;
     font-size: 1.2em;
     font-weight: 500;
+    text-align: justify;
 }
 
 @media(max-width:1000px){
