@@ -67,7 +67,10 @@ background-color: red;
     background-color: rgb(9, 9, 239);
     /* background-color: rgb(36, 36, 244); */
     /* background-color: rgb(45, 45, 239); */
-    /* background-color: rgb(9, 48, 147); */
+    /* background-color: rgb(39, 85, 199); */
+    /* background-color: rgb(35, 55, 185); */
+
+
 
 
 }
@@ -94,7 +97,7 @@ background-color: red;
 
     position: fixed;
     top: 84px;
-    right: 1rem;
+    right: 0.5em;
     height: 0;
 
     border-radius: 10px;
@@ -203,10 +206,15 @@ background-color: red;
         display: block;
       }
 }
-
+@media(min-width:801px){
+    .sidebar{
+      display: none;
+    }
+  
+}
 @media (max-width: 570px) {
     .sidebar {
-      left: 1.5rem;
+      left: 0.5em;
       width: unset;
     }
   }

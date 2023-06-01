@@ -49,7 +49,7 @@ const Projects = () => {
           <div className="project_item"><img src={ecommerce3} alt="" />
             <p className='project_name'>Ecommerce </p>
             <p>Html | Css | Javascript | React</p>
-            <p>This is a simple marketing ecommerce website.I used React for frontend,react graph,material ui icons,html and css.</p>
+            <p>This is a simple marketing ecommerce website.I have used React, react graph,material ui icons,html,css and bootstrap on frontend.This is an fully static and frontend website</p>
 
             <div className="project_item_buttons">
               <Link target='blank' to="https://github.com/sidhantnahak/Ecommerce.git">Github</Link><Link to="https://sidhantnahak.github.io/Ecommerce/" target='blnak'>Go Live</Link>

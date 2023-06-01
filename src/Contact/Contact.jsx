@@ -1,21 +1,11 @@
 import React from 'react'
 import './Contact.css'
-import { Link, Navigate, redirect, useLocation } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 const Contact = () => {
-    const location = useLocation()
-
-    const go_to = () => {
-        window.location.href = "twitter.com/SidhantNahak2"
-        // redirect( )
-        // window.location()
-        // location.pathname("twitter.com/SidhantNahak2")
 
 
-
-
-    }
     return (
-        <div className="contact_container">
+        <div id="contact_container" className="contact_container">
             <h1>Get In Touch</h1>
             <div className="contact_item_container">
 
@@ -106,7 +96,7 @@ const Contact = () => {
                     </Link>
                     <Link target='blank' to="https://twitter.com/SidhantNahak2">
                         <div target='blank' className="media_item_div">
-                        <i class="fa-brands fa-twitter"></i>
+                        <i className="fa-brands fa-twitter"></i>
                             <h4>Twiter</h4>
                             <p>twitter.com/SidhantNahak2</p>
 

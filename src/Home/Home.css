@@ -20,8 +20,11 @@ a{
 
 }
 .home_container h1{
-    /* font-weight: 700; */
     font: bold;
+}
+.home_container h1{
+   
+
 }
 .hi_there{
     font-size: 3.5em;

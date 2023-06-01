@@ -1,11 +1,16 @@
 import React from 'react'
 import Header from '../Header/Header'
 import './Home.css'
-import Skills from '../Skills/Skills'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 
 const Home = () => {
-  const navigate=useNavigate()
+  const ContactHandler = () => {
+    let elem = document.getElementById("contact_container");
+    elem.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+    elem.style.scrollMarginBlockStart = "110px"
+    elem.style.scrollMarginBlockEnd = "110px"
+
+  }
   return (
     <>
       {/* <Header /> */}
@@ -20,7 +25,7 @@ const Home = () => {
           <p>Fullstack Web Devloper</p>
           <div className="button_div">
             <Link to='https://drive.google.com/file/d/1WOwTlO1uRS36Jr26PSD7BDUbjYGKbTWD/view?usp=drive_link'>Resume</Link> 
-            <Link>Contact</Link>
+            <Link onClick={ContactHandler}>Contact</Link>
           </div>
         </div>
       </div>
