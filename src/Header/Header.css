@@ -88,7 +88,7 @@ background-color: red;
 
 .sidebar {  
     display: block;
-    opacity: inherit;
+    /* opacity: inherit; */
     width: 320px;
     /* background-color: rgb(155 48 158 / 49%); */
     /* background-color: rgba(44, 41, 44, 0.49); */
@@ -99,6 +99,7 @@ background-color: red;
     top: 84px;
     right: 0.5em;
     height: 0;
+    z-index: 1;
 
     border-radius: 10px;
     backdrop-filter: blur(15px);
@@ -125,7 +126,7 @@ background-color: red;
     text-decoration: none;
   }
   .sidebar ul li a:hover {
-    scale: 1.05;
+    scale: 1.150;
   }
   .sidebar .start {
     color: black;
