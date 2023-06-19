@@ -59,7 +59,7 @@ const Contact = () => {
                     </form>
                 </div>
                 <div className="media_div">
-                <Link target='blank' to="sidhantnahak2@gmail.com">
+                <Link target='blank' to="https://gmail.com">
 
                     <div className="media_item_div">
                         <i className="fa-solid fa-envelope"></i>

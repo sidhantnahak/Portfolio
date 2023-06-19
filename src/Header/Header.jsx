@@ -58,22 +58,29 @@ const Header = () => {
               <Link onClick={HomeHandler}><i className="fa-solid fa-house"></i>
                 Home
               </Link>
+              <div className="fill"></div>
+
             </li>
             <li>
               <Link onClick={AboutHandler}><i className="fa-regular fa-user"></i>
                 About
               </Link>
+              <div className="fill"></div>
+
             </li>
             <li>
               <Link onClick={ProjectHandler}><i className="fa-regular fa-solid fa-file"></i>
 
                 Projects
               </Link>
+              <div className="fill"></div>
+
             </li>
             <li>
               <Link target="blank" to="https://drive.google.com/file/d/1WOwTlO1uRS36Jr26PSD7BDUbjYGKbTWD/view?usp=drive_link"><i className="fa-solid fa-address-card"></i>
                 Resume
               </Link>
+              <div className="fill"></div>
             </li>
 
 

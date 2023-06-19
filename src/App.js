@@ -1,7 +1,7 @@
 import './App.css';
 import Home from './Home/Home';
 
-import {  BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import Skills from './Skills/Skills';
 import Header from './Header/Header';
 import About from './About/About';
@@ -13,11 +13,6 @@ import Contact from './Contact/Contact';
 
 function App() {
 
-  // window.scrollTo({
-  //   left: "10px",
-  //   top: "10px",
-  //   behavior: "auto"
-  // });
   return (
     <>
       <BrowserRouter>
@@ -25,11 +20,11 @@ function App() {
         <Home />
         <About />
         <Skills />
-        <Github/>
+        <Github />
         <Projects />
         {/* <Codechef/> */}
-<Contact/>
-        <Footer/>
+        <Contact />
+        <Footer />
 
 
       </BrowserRouter>
